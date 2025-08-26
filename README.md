@@ -1,3 +1,6 @@
+Please reach out to the team for the mainnet guide. This is the testnet guide for now and will be upgraded upon request. Testnet guide can also be found here: 
+https://github.com/ConstellationCrypto/replica-guide-space-and-time-testnet
+
 # Replica Guide
 
 To use: You'll want to bring your own more performant RPC URL for the base chain instead of using the default. Configure this via the `EN_ETH_CLIENT_URL` environment variable in the `external-node` service in `docker-compose.yml`. Then run `docker compose up`.
