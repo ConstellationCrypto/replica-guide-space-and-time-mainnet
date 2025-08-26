@@ -1,7 +1,5 @@
 # Replica Guide
 
-=============
-
 To use: You'll want to bring your own more performant RPC URL for the base chain instead of using the default. Configure this via the `EN_ETH_CLIENT_URL` environment variable in the `external-node` service in `docker-compose.yml`. Then run `docker compose up`.
 
 A number of constants have already been set:
@@ -20,9 +18,6 @@ localhost:3060
 {"jsonrpc":"2.0","result":"0x4aa6","id":0}
 ```
 
-# More Notes
-
-=============
-
 - The `docker-compose.yml` also includes services for prometheus and grafana, but these aren't necessary to spin up
 - The postgres user password should probably be changed from the default value (`POSTGRES_PASSWORD` env variable)
+
